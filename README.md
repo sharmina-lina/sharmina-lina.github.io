@@ -1,2 +1,2 @@
 # Portfolio
-Everything all about my work and certifications.
+Open the index.html to view my website
