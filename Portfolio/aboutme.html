@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+      
+  </head>
+<body>
+    
+    <ul class="menu">
+      <li><a href=index.html  class="menu-item"><img src="./img/home.jpg" style="margin-right: 150px;"/></a></li> 
+      <li><a href="#aboutme"  class="menu-item" target="_blank">About me</a></li>   
+      <li><a href="project.html"  class="menu-item">Projects</a></li>
+      <li><a href="certificates.html"  class="menu-item">Certifications</a></li>
+      
+    </ul>
+    <section class="aboutmedes">
+    <div>
+      <div class="detail-about-container">
+      <p>
+        Despite having a direct working experience in the IT industry, I made myself an expert in various needful programming languages such as Python, C#, Java, JavaScript, database management like NoSQL, MySQL, MongoDB, SQL and shell scripting, and PowerShell.  
+      </p> 
+      <p class="more-text" style="display: none;">Also, I am a certified AWS Cloud Practitioner and Microsoft Certified Azure Fundamentals and Security, Compliance and Identity Fundamentals. In my most recent role as a Research Assistant at the University of Bergen, I developed a program for journalists to monitor the trend of recent Twitter feeds in a graphical presentation, using Python, Django, WebSocket API, Twitter live-streaming API, and JavaScript. This project allowed me to further enhance my technical skills and work effectively independently. Also, had an opportunity to develop a program for IoT devices, connect with the MQTT server, downloaded data from the server store into the database and made the data searchable. It was developed with Python, Flask Framework, REST API and MongoDB database. </p>
+      <a href="#" class="read-more" style="display: block;">Read More</a></div>
+      <script>
+        const readMoreLink = document.querySelector('.read-more');
+const moreContent = document.querySelector('.more-text');
+
+readMoreLink.addEventListener('click', function (e) {
+  e.preventDefault();
+  
+  if (moreContent.style.display === 'none') {
+    moreContent.style.display = 'block';
+    readMoreLink.textContent = 'Read less';
+  } else {
+    moreContent.style.display = 'none';
+    readMoreLink.textContent = 'Read more';
+  }
+});
+
+
+      </script>
+      <h1>Skills</h1>
+    
+      
+      <div style="display: flex;">
+      
+      <ul style="flex-basis: 20%;">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>Java</li>
+      </ul> 
+      
+      <ul style="flex-basis: 25%;"><li>Bash Shell Scripting</li>
+      <li>Powershell</li>
+      <li>MySQL</li>
+    <li>MongoDb</li></ul>
+    <ul style="flex-basis: 55%;">
+      <li>Microsoft Core Services for Compute, Storage and Networking, including VM, Azure AD, Azure Function, Microsoft 365, Microsoft Intune
+
+    </li>
+      <li>AWS Core Services for Compute, Storage and Networking, including EC2, S3, IAM, VPC, Lambda, Cloud Formation, RDS, and Route 53</li>
+    </ul>
+    </div> 
+  </div>
+  <div class="expanded-content-placeholder"></div>
+  </div>
+
+  </section>
+        
+    <div class="menu-line-footer"></div>
+     <div class="contact">
+       <ul class="footer-menu" >
+        <li>Phone</li>
+        <li>Email</li>
+        <li>Follow me</li>
+       </ul>
+     </div>
+     <div>
+       <ul class="contact-detail">
+         <li>46259703</li>
+         <li>sharmina.lina@gmail.com</li>
+         </ul>
+         <ul class="logo">
+               
+          <li><a href="https://github.com/sharmina-lina"><img src="./img/github.png"></a></li>
+         <li><a href="https://facebook.com/sharmina-lina"><img src="./img/fb.png"></a></li>
+         <li><a href="https://www.linkedin.com/in/mst-sharmina-iasmin/"><img src="./img/linkedIn.png"></a></li>
+        
+
+       </ul>
+       <div class="copyright">
+        <p>© 2023 Sharmina.</p>
+       </div>
+     </div>
+  
+</body>
+</html>
