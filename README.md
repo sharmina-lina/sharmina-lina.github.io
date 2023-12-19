@@ -1,2 +1,2 @@
 # Portfolio
-Open the index.html to view my website
+Go to the https://sharmina-lina.github.io/Portfolio/index.html to view my website
